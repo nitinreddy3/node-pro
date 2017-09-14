@@ -2,7 +2,7 @@ var http = require("http");
 var fs = require('fs');
 var path = require('path');
 var helpers = require('./public/helpers');
-
+var evenMoreHelpers = require('./public/evenMoreHelpers');
 /**
  * Create http server example
  */
@@ -22,4 +22,11 @@ http.createServer(function(req, res) {
 }).listen(8000, "127.0.0.1"); 
 */
 
-helpers.myName("Nitin", 28);
+// helpers.myName("Nitin", 28);
+
+// evenMoreHelpers()
+
+fs.readFile("test.txt", (err, data) => {
+    console.log(data.toString())
+})
+
