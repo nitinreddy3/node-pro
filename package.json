@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nitin Reddy <reddynitin3@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "connect": "^3.5.1",
     "express": "^4.14.1",
+    "lodash": "^4.17.4",
     "request": "^2.81.0"
   }
 }
