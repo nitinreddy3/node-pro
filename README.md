@@ -1,1 +1,3 @@
-# node-pro
+# NODEJS Playground
+
+## Learn NodeJS by hacking it
